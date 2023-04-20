@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+
+
+
+
+body {
+  background-color: white;
+  font-family: Arial, sans-serif;
+}
+
+.heading {
+  background-image: url('./images/A\ força\ dos\ jovens\ que\ não\ desistiram\ dos\ seus\ sonhos.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.header {
+  background-color: transparent;
+  padding: 20px;
+  color: white;
+  position: absolute;
+  z-index: 1;
+}
+
+.logo-font {
+  font-family: 'Tilt Prism', cursive!important;
+  font-size: 35px!important;
+}
+.logo-fonta{
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-size: 55px!important;
+}
+
+.hero-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.bg-aboutUs {
+  background-color: #9DC183;
+  opacity: 0.8;
+}
+
+.hro-heading {
+  font-family:Verdana, Geneva, Tahoma, sans-serif!important;
+}
+
+
+.our-team {
+  background-color: white;
+  padding: 50px 0;
+}
+
+.contact-us {
+  background-color: orange;
+  padding: 50px 0;
+  color: white;
+}
+
+
+/* TEAM CARD EDITING */
+
+.card{
+  transition: 0.2s ease-in-out!important;
+}
+
+.card:hover {
+  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2);
+  transition: 0.4s;
+  border-bottom: 10px solid #9DC183;
+}
